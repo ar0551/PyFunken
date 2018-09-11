@@ -100,13 +100,13 @@ class PyFunken(object):
 		while self.ser_conn[port].ser.in_waiting:
 			response = self.ser_conn[port].ser.readline()
 			if self.verbose == 2:
-				print response
+				print(response)
 			parsed_response = handle_funken_response(response)
 			if parsed_response is not None:
 				if parsed_response[0] == id:
 					if parsed_response[1] == token:
 						if self.verbose == 1:
-							print response
+							print(response)
 						return parsed_response[2]
 		return None
 
