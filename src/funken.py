@@ -57,7 +57,8 @@ class SerialConnection(object):
 				if parsed_response is not None:
 					if parsed_response[1] == "CLIST":
 						if parsed_response[0] in self.devices:
-							self.devices[parsed_response[0]].register_tokens(parsed_response[2])				
+							self.devices[parsed_response[0]].register_tokens(parsed_response[2])
+							
 							
 ## PyFunken base class: stores all serial connections to be monitored and handles incoming and outgoing messages
 class PyFunken(object):
