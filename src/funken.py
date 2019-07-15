@@ -87,6 +87,7 @@ class PyFunken(object):
 	def add_serial_connection(self, port, baudrate):
 	   if port in self.com_ports:
 		   self.ser_conn[port].ser.close()
+		   self.com_ports.remove(port)
 	   self.ser_conn[port] = SerialConnection(port, baudrate)
 	   self.com_ports.append(port)
 	
