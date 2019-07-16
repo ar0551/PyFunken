@@ -34,7 +34,7 @@ time.sleep(1)
 ```
 
 ### Send Commands to a Funken Device
-Using ```pyf.send_command("PM 13 1\n", port, 1)``` it is possible to send commands as string objects to the selected port and device. All Funken commands must include a ```\n``` EOL delimited to be recognized as separate commands by Funken. In the code below, you can see an example of a PyFunken file blinking an LED on pin 13 (on a board running the [02BasicArduino](https://github.com/astefas/Funken/tree/master/src/Funken/examples/02BasicArduino) example file).
+Using ```.send_command()``` it is possible to send commands as string objects to the selected port and device. All Funken commands must include a ```\n``` EOL delimited to be recognized as separate commands by Funken. In the code below, you can see an example of a PyFunken file blinking an LED on pin 13 (on a board running the [02BasicArduino](https://github.com/astefas/Funken/tree/master/src/Funken/examples/02BasicArduino) example file).
 ```python
 ## set pin 13 as output
 pyf.send_command("PM 13 1\n", port, 1)
