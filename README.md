@@ -34,7 +34,7 @@ time.sleep(1)
 ```
 
 ### Send Commands to a Funken Device
-Using ```pyf.send_command("PM 13 1\n", port, 1)``` it is possible to send commands as string objects to the selected port and device. All Funken commands must include a ```\n"``` EOL delimited to be recognized as separate commands by Funken. In the code below, you can see an example of a PyFunken file blinking an LED on pin 13 (on a board running the [02BasicArduino](https://github.com/astefas/Funken/tree/master/src/Funken/examples/02BasicArduino) example file).
+Using ```pyf.send_command("PM 13 1\n", port, 1)``` it is possible to send commands as string objects to the selected port and device. All Funken commands must include a ```\n``` EOL delimited to be recognized as separate commands by Funken. In the code below, you can see an example of a PyFunken file blinking an LED on pin 13 (on a board running the [02BasicArduino](https://github.com/astefas/Funken/tree/master/src/Funken/examples/02BasicArduino) example file).
 ```python
 ## set pin 13 as output
 pyf.send_command("PM 13 1\n", port, 1)
@@ -70,11 +70,11 @@ time.sleep(0.01)
 
 
 ## License
-Funken: Serial Protocol Toolkit Arduinolibrary (GPL) initiated by Alexander Stefas
+PyFunken: Python interface (GPL) to the [Funken](https://github.com/astefas/Funken) Serial Protocol Toolkit.
 
-Copyright (c) 2018, Alexander Stefas
+Copyright (c) 2019, Andrea Rossi
 
-Funken is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation.
+PyFunken is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation.
 
 Funken is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
@@ -83,9 +83,9 @@ You should have received a copy of the GNU General Public License along with Fun
 @license GPL-3.0 https://www.gnu.org/licenses/gpl.html
 
 
-![Funken logo](https://github.com/astefas/Funken/blob/master/material/DDU-logo_BLACK_RGB.png)
+![DDU logo](https://github.com/ar0551/PyFunken/tree/master/materialsDDU-logo_BLACK_RGB.png)
 
-Significant parts of Funken have been developed by Alexander Stefas as part of research on democratizing tools at [DDU Digital Design Unit - Prof. Oliver Tessmann - Technische Universität Darmstadt](http://www.dg.architektur.tu-darmstadt.de/dg/startseite_3/index.de.jsp).
+Significant parts of Funken have been developed by Andrea Rossi at [DDU Digital Design Unit - Prof. Oliver Tessmann - Technische Universität Darmstadt](http://www.dg.architektur.tu-darmstadt.de/dg/startseite_3/index.de.jsp).
 
 ## References
 [Stefas, A, Rossi, A and Tessmann, O. 2018. Funken: Serial Protocol Toolkit for Interactive Prototyping, In Proceedings of ECAADE 2018, Lodz. Poland](http://papers.cumincad.org/data/works/att/ecaade2018_388.pdf)
