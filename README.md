@@ -76,16 +76,16 @@ Copyright (c) 2019, Andrea Rossi
 
 PyFunken is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0 as published by the Free Software Foundation.
 
-Funken is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+PyFunken is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with Funken; If not, see http://www.gnu.org/licenses/.
+You should have received a copy of the GNU General Public License along with PyFunken; If not, see http://www.gnu.org/licenses/.
 
 @license GPL-3.0 https://www.gnu.org/licenses/gpl.html
 
 
 ![DDU logo](https://github.com/ar0551/PyFunken/blob/master/materials/DDU-logo_BLACK_RGB.png)
 
-Significant parts of Funken have been developed by Andrea Rossi at [DDU Digital Design Unit - Prof. Oliver Tessmann - Technische Universität Darmstadt](http://www.dg.architektur.tu-darmstadt.de/dg/startseite_3/index.de.jsp).
+Significant parts of PyFunken have been developed by Andrea Rossi at [DDU Digital Design Unit - Prof. Oliver Tessmann - Technische Universität Darmstadt](http://www.dg.architektur.tu-darmstadt.de/dg/startseite_3/index.de.jsp).
 
 ## References
 [Stefas, A, Rossi, A and Tessmann, O. 2018. Funken: Serial Protocol Toolkit for Interactive Prototyping, In Proceedings of ECAADE 2018, Lodz. Poland](http://papers.cumincad.org/data/works/att/ecaade2018_388.pdf)
