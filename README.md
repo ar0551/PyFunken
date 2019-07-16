@@ -83,7 +83,7 @@ You should have received a copy of the GNU General Public License along with Fun
 @license GPL-3.0 https://www.gnu.org/licenses/gpl.html
 
 
-![DDU logo](https://github.com/ar0551/PyFunken/tree/master/materialsDDU-logo_BLACK_RGB.png)
+![DDU logo](https://github.com/ar0551/PyFunken/tree/master/materials/DDU-logo_BLACK_RGB.png)
 
 Significant parts of Funken have been developed by Andrea Rossi at [DDU Digital Design Unit - Prof. Oliver Tessmann - Technische Universität Darmstadt](http://www.dg.architektur.tu-darmstadt.de/dg/startseite_3/index.de.jsp).
 
