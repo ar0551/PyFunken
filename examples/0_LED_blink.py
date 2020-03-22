@@ -12,12 +12,12 @@ pyf.ser_conn[port].register_devices()
 time.sleep(1)
 
 ## set pin 13 as output
-pyf.send_command("PM 13 1\n", port, 1)
+pyf.send_command(b"PM 13 1\n", port, 1)
 
 while True:
 	## turn led on pin 13 on
-	pyf.send_command("DW 13 1\n", port, 1)
+	pyf.send_command(b"DW 13 1\n", port, 1)
 	time.sleep(1)
 	## turn led on pin 13 off
-	pyf.send_command("DW 13 0\n", port, 1)
+	pyf.send_command(b"DW 13 0\n", port, 1)
 	time.sleep(1)

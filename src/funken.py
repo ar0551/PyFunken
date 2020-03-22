@@ -116,7 +116,7 @@ class PyFunken(object):
 		
 		self.ser_conn = {}
 		
-		for i in xrange(len(self.com_ports)):
+		for i in range(len(self.com_ports)):
 			#set baudrate
 			baud = None
 			if len(baudrates) == 0:
