@@ -199,6 +199,10 @@ def handle_funken_response(txt):
 		comm_val (str): Response value (or None if the response was not generated)
 	'''
 	
+    if txt[0] == "b":
+        for char in "b'":
+        txt = txt.replace(char, "")
+    
 	if txt[0] != "<":
 		return None
 	
